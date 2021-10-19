@@ -30,7 +30,7 @@ public class UserDto {
 
 	
 	@NotBlank(message = FlightBookingConstants.ROLE_REQUIRED)
-	@Pattern(regexp = "(user|admin)", message = FlightBookingConstants.USER_OR_ADMIN)
+	@Pattern(regexp = "(R-user|R-admin)", message = FlightBookingConstants.USER_OR_ADMIN)
 	private String role;
 	
 	public String getPassword() {
